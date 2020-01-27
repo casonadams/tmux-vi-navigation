@@ -1,6 +1,18 @@
 # tmux-vi-navigation
 Use vi keys `hjkl` to navigate panes
 
+## Setup
+Add `set -g @plugin 'casonadams/tmux-vi-navigation'` to tmux.conf file then install plugins `ctrl+b I`
+
+```bash
+if "test ! -d ~/.tmux/plugins/tpm" \
+     "run 'git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && ~/.tmux/plugins/tpm/bin/install_plugins'"
+
+set -g @plugin 'casonadams/tmux-vi-navigation'
+
+run -b '~/.tmux/plugins/tpm/tpm'
+```
+
 ## Navigation
 |Command|Result|
 |-------|------|
