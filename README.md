@@ -13,7 +13,7 @@ Use vi keys `hjkl` to navigate panes
 |`ctrl+b J`|Resize pane down 5 pixels|
 |`ctrl+b K`|Resize pane up 5 pixels|
 |`ctrl+b \`|Split vertically 25%|
-|`ctrl+b |`|Split horizontally 25%|
+|`ctrl+b \|`|Split horizontally 25%|
 |`ctrl+b -`|Split vertically 50%|
 |`ctrl+b _`|Split horizontally 50%|
 |`ctrl+b >`|Swap pane down|
