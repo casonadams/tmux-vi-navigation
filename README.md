@@ -31,4 +31,6 @@ run -b '~/.tmux/plugins/tpm/tpm'
 |`ctrl+b >`|Swap pane down|
 |`ctrl+b <`|Swap pane up|
 |`ctrl+b c`|Create new window|
-|`ctrl+b n`|Next window|
+|`ctrl+b+h`|Previous window|
+|`ctrl+b tab`|Previous window|
+|`ctrl+b+l`|Next window|
